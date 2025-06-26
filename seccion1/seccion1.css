@@ -1,8 +1,11 @@
-.seccion1 {
-    width: 1440px;
-    height: 750px;
+.seccion1 { 
+    width: 100%;
+    height: auto;
     border: 1px solid black;
+    padding: 20px;
+    box-sizing: border-box;
 }
+
 
 .titulo {
     width: 600px;

@@ -1,0 +1,82 @@
+
+.pantalla {
+    width: 100%;
+    height: auto; 
+    margin: auto;
+}
+
+/* Pantallas menores a 1024px (tablets) */
+@media screen and (max-width: 1024px) {
+    .pantalla,
+    .header,
+    .seccion1 {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .titulo {
+        width: 90%;
+        font-size: 32px;
+        margin: 100px auto 20px auto;
+        text-align: center;
+    }
+
+    .introduccion {
+        width: 90%;
+        font-size: 16px;
+        margin: 0 auto 20px auto;
+        text-align: center;
+    }
+
+    .facebook {
+        margin: 30px auto;
+        display: block;
+    }
+}
+
+/* Pantallas menores a 600px (celulares) */
+@media screen and (max-width: 600px) {
+    .pantalla,
+    .header,
+    .seccion1 {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .logo {
+        width: 100px;
+        height: auto;
+        margin: 10px auto;
+    }
+
+    .t1, .t2, .t3, .t4, .resume {
+        margin: 5px auto;
+        text-align: center;
+    }
+
+    .titulo {
+        font-size: 24px;
+        margin: 40px auto 10px auto;
+        text-align: center;
+    }
+
+    .introduccion {
+        font-size: 14px;
+        margin: 10px auto;
+        width: 90%;
+        text-align: center;
+    }
+
+    .facebook {
+        margin: 20px auto;
+        display: block;
+    }
+}
