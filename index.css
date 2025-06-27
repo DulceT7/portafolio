@@ -36,47 +36,31 @@
 }
 
 /* Pantallas menores a 600px (celulares) */
-@media screen and (max-width: 600px) {
-    .pantalla,
-    .header,
-    .seccion1 {
-        width: 100%;
-        padding: 10px;
-        box-sizing: border-box;
-    }
 
+@media screen and (max-width: 600px) {
     .header {
         flex-direction: column;
-        align-items: center;
-        height: auto;
+        gap: 8px;
     }
 
-    .logo {
+    .t1, .t2, .t3, .t4 {
+        font-size: 14px;
+        margin: 4px 0;
+    }
+
+    .resume {
         width: 100px;
-        height: auto;
-        margin: 10px auto;
-    }
-
-    .t1, .t2, .t3, .t4, .resume {
-        margin: 5px auto;
-        text-align: center;
     }
 
     .titulo {
-        font-size: 24px;
-        margin: 40px auto 10px auto;
-        text-align: center;
+        font-size: 20px;
     }
 
     .introduccion {
-        font-size: 14px;
-        margin: 10px auto;
-        width: 90%;
-        text-align: center;
+        font-size: 13px;
     }
 
     .facebook {
-        margin: 20px auto;
-        display: block;
+        width: 35px;
     }
 }
