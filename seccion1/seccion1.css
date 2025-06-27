@@ -1,27 +1,31 @@
 .seccion1 {
-    width: 100%;
-    padding: 20px;
-    box-sizing: border-box;
+    width: 1440px;
+    height: 750px;
     border: 1px solid black;
-    text-align: center;
 }
 
 .titulo {
-    font-size: 24px;
+    width: 600px;
+    height: 208px;
+    margin-left: 120px;
+    margin-top: 200px;
+    font-size: 40px;
     color: cadetblue;
-    margin: 20px auto;
+    margin-top: auto;
 }
 
 .introduccion {
+    width: 600px;
+    height: 50px;
     font-size: 14px;
-    margin: 10px auto;
+    margin-left: 80px;
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
     color: gray;
-    display: block;
-    width: 90%;
 }
 
 .facebook {
-    margin-top: 20px;
-    width: 40px;
-    height: auto;
+    margin-left: 120px;
+    margin-top: 160px;
 }
